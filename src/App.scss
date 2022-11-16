@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@700;800;900&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat','Inter Tight', sans-serif;
+    scroll-behavior: smooth;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    font-size: 25px;
+    font-weight: 100;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1300px;
+    width: 100%;
+}
