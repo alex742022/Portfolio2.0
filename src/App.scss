@@ -7,6 +7,31 @@
     font-family: 'Montserrat','Inter Tight', sans-serif;
     scroll-behavior: smooth;
 }
+
+// scroll animation
+.reveal {
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: all .1s .2s ease-in-out;
+}
+
+.reveal1{
+    opacity: 0;
+    transform: translateY(-30px);
+    transition: all .1s .2s ease-in-out;
+}
+
+.reveal2{
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all .1s .2s ease-in-out;
+}
+
+.active {
+    opacity: 1;
+    transform: none;
+}
+
 .flex{
     display: flex;
     align-items: center;
