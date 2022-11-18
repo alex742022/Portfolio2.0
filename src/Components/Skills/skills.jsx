@@ -11,9 +11,9 @@ import GitHubSkill from '../../assets/skills-picture/GITHUB_logo.png'
 
 export default function Skills() {
   return (
-    <section className="skills-container">
+    <section className="skills-container" id="Skills">
         <div className="container container4">
-            <h1 className="title-section reveal1" id="Skills">SKILLS</h1>
+            <h1 className="title-section reveal1" >SKILLS</h1>
             <div className="skills-content">
                 <div className="column-left reveal">
                     <h2>My creative skills & experiences</h2>

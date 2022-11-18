@@ -28,7 +28,6 @@ $colorThemeFour1: #440381;
 
         .left-width{
             width: 300px;
-            transition: all .7s .6s ease;
             .project-text-style-h2{
                 margin-bottom: 20px;
                 font-size: 25px;
@@ -111,6 +110,7 @@ $colorThemeFour1: #440381;
                     object-position: 100% 0%;
                     width: 800px;
                     box-shadow: 0 0 7px -3px gray;
+                    transition: all .5s .2s ease;
                 }
             }
         }
