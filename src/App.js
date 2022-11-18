@@ -8,6 +8,42 @@ import Footer from './Components/Footer/footer'
 import './App.css'
 
 export default function App() {
+
+  //Scroll Animation
+
+  const scrollFunctionEvent = () => {
+
+    var  reveals = document.querySelectorAll('.reveal, .reveal1, .reveal2');
+      for (var i = 0; i < reveals.length; i++){
+    
+        var windowHeight = window.innerHeight;
+        var revealTop = reveals[i].getBoundingClientRect().top;
+        var revealPoint = 200;
+    
+          if(revealTop < windowHeight - revealPoint){
+            reveals[i].classList.add('active');
+            console.log("sfasasafa")
+          }
+
+          else {
+            reveals[i].classList.remove('active');
+            console.log(0)
+          }
+      }
+  }
+
+  // scroll hook animation
+  React.useEffect(() => {
+
+    window.addEventListener('scroll', scrollFunctionEvent)
+
+    return () => {
+      window.removeEventListener("scroll", scrollFunctionEvent)
+  
+    }
+  }, [])
+
+
   return (
     <div>
         <Nav/>
