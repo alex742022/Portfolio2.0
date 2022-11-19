@@ -169,8 +169,6 @@
     background: rgba(250, 250, 250, 0.9);
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    -webkit-backdrop-filter: blur(20px);
-            backdrop-filter: blur(20px);
     transition: transform 0.1s ease-in-out;
   }
   .nav-bar .navbar-content .navbar-container ul {
@@ -252,4 +250,10 @@
 }
 .nav-bar-dark .navbar-content .navbar-container .change-theme-button .theme-container {
   background-color: rgb(30, 30, 30);
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-bar-dark .navbar-content .navbar-container {
+    box-shadow: 0px 0px 1px white;
+  }
 }/*# sourceMappingURL=nav.css.map */

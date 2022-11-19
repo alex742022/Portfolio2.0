@@ -91,6 +91,7 @@
 .skills-container-dark-mode {
   background: rgb(40, 40, 40);
   color: rgb(220, 220, 220);
+  border-bottom: 1px solid rgba(250, 250, 250, 0.2);
 }
 .skills-container-dark-mode .container4 .skills-content {
   -moz-column-gap: 40px;
