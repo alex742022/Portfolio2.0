@@ -111,6 +111,7 @@
 @media only screen and (min-width: 0px){
     .projects-container{
         padding: 0 18px;
+
         .container3{
 
             .title-section3{
@@ -138,6 +139,29 @@
         }
     }
 }
+
+@media only screen and (min-width: 0px) and (max-width: 480px){
+    .projects-container{
+        overflow: hidden;
+
+        .container3{
+
+            .content3{
+
+                .column-right3{
+
+                    .Pimage-style{
+                        position: relative;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 110%;
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 @media only screen and (min-width: 700px){
     .projects-container{
