@@ -61,7 +61,7 @@
   text-decoration: none;
   color: rgb(50, 50, 50);
 }
-.contact .container5 .contact-container .contact-right .details .icon-container img {
+.contact .container5 .contact-container .contact-right .details .icon-container icon {
   width: 25px;
 }
 .contact .container5 .contact-container .contact-right .details .icon-container label {
@@ -80,7 +80,7 @@
   text-decoration: none;
   color: rgb(50, 50, 50);
 }
-.contact .container5 .contact-container .contact-right .social .icon-container img {
+.contact .container5 .contact-container .contact-right .social .icon-container icon {
   width: 25px;
 }
 .contact .container5 .contact-container .contact-right .social .icon-container label {

@@ -1,9 +1,12 @@
 import React from 'react'
 import './footer.css'
-import MailIcon from '../../assets/icons/envelope-solid.svg'
-import FacebookIcon from '../../assets/icons/facebook.svg'
-import LinkedinIcon from '../../assets/icons/linkedin.svg'
-import GitHubIcon from '../../assets/icons/github.svg'
+
+// use Font awesome
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 // useContext import from Darkmode folder
 import { UsedarkModeActive  } from '../Darkmode/darkmodeTheme'
 
@@ -34,7 +37,7 @@ export default function Footer() {
                         
                         <span>CONTACT DETAILS</span><br/>
                         <a href="mailto:alexis.aquino.lumbera7@gmail.com" className="icon-container" rel="noopener noreferrer">
-                            <img src={MailIcon} alt="mail-icon"/>
+                            <FontAwesomeIcon icon={ faEnvelope }  className="icon"/>
                             <label> alexis.aquino.lumbera7@gmail.com</label>
                         </a>
 
@@ -44,15 +47,15 @@ export default function Footer() {
                         
                         <span>SOCIALS</span><br/>
                         <a className="icon-container" href="https://m.facebook.com/alexis.lumbera" target="_blank" rel="noopener noreferrer">
-                            <img src={FacebookIcon} alt="facebook-icon"/><label> Facebook</label>
+                            <FontAwesomeIcon icon={ faFacebook }  className="icon"/><label> Facebook</label>
                         </a>
 
                         <a className="icon-container" href="https://www.linkedin.com/in/alexis-lumbera-547654230" target="_blank" rel="noopener noreferrer">
-                            <img src={LinkedinIcon} alt="linkedin-icon"/><label> Linkedin</label>
+                            <FontAwesomeIcon icon={ faLinkedin }  className="icon"/><label> Linkedin</label>
                         </a>
                     
                         <a className="icon-container" href="https://github.com/alex742022" target="_blank" rel="noopener noreferrer"    >
-                            <img src={GitHubIcon} alt="github-icon"/><label> Github</label>
+                            <FontAwesomeIcon icon={ faGithub }  className="icon"/><label> Github</label>
                         </a>
             
                     </div>
