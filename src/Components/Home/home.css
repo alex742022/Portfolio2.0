@@ -194,6 +194,9 @@
   .home-container .container1 .text-content button {
     margin-top: 20px;
   }
+  .home-container .container1 .image-container1 {
+    height: 0;
+  }
   .home-container .container1 .image-container1 img {
     width: 550px;
     position: absolute;
@@ -222,4 +225,23 @@
       opacity: 1;
     }
   }
+}
+.home-container-dark-mode {
+  background-color: rgb(30, 30, 30);
+}
+.home-container-dark-mode .container1 .text-content h1::before {
+  color: rgb(220, 220, 220);
+}
+.home-container-dark-mode .container1 .text-content h1::after {
+  color: rgb(220, 220, 220);
+}
+.home-container-dark-mode .container1 .text-content p {
+  color: rgb(220, 220, 220);
+}
+.home-container-dark-mode .container1 .text-content button {
+  color: white;
+}
+.home-container-dark-mode .container1 .image-container1 {
+  background: rgb(40, 40, 40);
+  z-index: 1;
 }/*# sourceMappingURL=home.css.map */

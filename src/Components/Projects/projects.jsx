@@ -8,8 +8,13 @@ import projectFive from '../../assets/projects-picture/sample-magazine.png'
 import projectSix from '../../assets/projects-picture/building-city-skyline.png'
 import projectSeven from '../../assets/projects-picture/facebook-clone.png'
 import projectEight from '../../assets/projects-picture/building-penguin.png'
+// useContext import from Darkmode folder
+import { UsedarkModeActive  } from '../Darkmode/darkmodeTheme'
 
 export default function Projects() {
+
+    //variable for toggle darkmode
+    const darkMode = UsedarkModeActive()
 
     const projectSources = {
 
@@ -91,8 +96,8 @@ export default function Projects() {
     }
 
   return (
-    <section className="projects-container container">
-         <div className="container3">
+    <section className={darkMode ? "projects-container projects-container-dark-mode" : "projects-container"}>
+         <div className="container3 container">
            <h1 className="title-section title-section3 reveal1" id="Projects">PROJECTS</h1>
             
             {projectSources.projectSourcesArray.map(projects => {

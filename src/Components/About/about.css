@@ -98,4 +98,12 @@
     width: 380px;
     height: 380px;
   }
+}
+.about-container-dark-mode {
+  background: rgb(40, 40, 40);
+  color: rgb(220, 220, 220);
+}
+.about-container-dark-mode::after {
+  background: rgb(30, 30, 30);
+  color: rgb(220, 220, 220);
 }/*# sourceMappingURL=about.css.map */

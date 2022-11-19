@@ -4,9 +4,16 @@ import MailIcon from '../../assets/icons/envelope-solid.svg'
 import FacebookIcon from '../../assets/icons/facebook.svg'
 import LinkedinIcon from '../../assets/icons/linkedin.svg'
 import GitHubIcon from '../../assets/icons/github.svg'
+// useContext import from Darkmode folder
+import { UsedarkModeActive  } from '../Darkmode/darkmodeTheme'
+
 export default function Footer() {
+
+     //variable for toggle darkmode
+     const darkMode = UsedarkModeActive()
+     
   return (
-    <footer id="Contact" className="contact">
+    <footer id="Contact" className={darkMode ? "contact contact-dark-mode" : "contact"}>
         <div className="container container5">
             <h1 className="title-section reveal1">CONTACT</h1>
             <div className="contact-container">

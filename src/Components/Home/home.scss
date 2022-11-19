@@ -222,7 +222,7 @@
             }
 
             .image-container1{
-               
+               height: 0;
                 img{
                     width: 550px;
                     position: absolute;
@@ -243,4 +243,37 @@
             }
         }
     }  
+}
+
+.home-container-dark-mode{
+    background-color: $colorBackground;
+
+    .container1{
+        .text-content{
+
+            h1{
+                &::before{
+                    
+                    color: $colorText;
+                }
+                &::after{
+                    color: $colorText;
+                }
+            }
+
+            p{
+               color: $colorText;
+            }
+
+            button{
+                color: white;
+            }
+        }
+
+        .image-container1{
+            background: $colorBackground2;
+            z-index: 1;
+        }
+            
+    }
 }

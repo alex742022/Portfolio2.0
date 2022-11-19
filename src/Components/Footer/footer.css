@@ -1,5 +1,4 @@
 .contact {
-  background: white;
   padding-bottom: 100px;
 }
 .contact .container5 .title-section {
@@ -130,4 +129,39 @@
     font-size: 35px;
     padding-bottom: 80px;
   }
+}
+.contact-dark-mode {
+  background: rgb(30, 30, 30);
+}
+.contact-dark-mode .container5 .title-section {
+  color: rgb(220, 220, 220);
+}
+.contact-dark-mode .container5 .contact-container .contact-left form label {
+  color: rgb(220, 220, 220);
+}
+.contact-dark-mode .container5 .contact-container .contact-left form input, .contact-dark-mode .container5 .contact-container .contact-left form textarea {
+  background-color: rgb(30, 30, 30);
+  border-bottom: 2px solid rgb(220, 220, 220);
+  color: rgb(220, 220, 220);
+}
+.contact-dark-mode .container5 .contact-container .contact-left form input::-moz-placeholder, .contact-dark-mode .container5 .contact-container .contact-left form textarea::-moz-placeholder {
+  color: rgb(220, 220, 220);
+}
+.contact-dark-mode .container5 .contact-container .contact-left form input:-ms-input-placeholder, .contact-dark-mode .container5 .contact-container .contact-left form textarea:-ms-input-placeholder {
+  color: rgb(220, 220, 220);
+}
+.contact-dark-mode .container5 .contact-container .contact-left form input::placeholder, .contact-dark-mode .container5 .contact-container .contact-left form textarea::placeholder {
+  color: rgb(220, 220, 220);
+}
+.contact-dark-mode .container5 .contact-container .contact-right .details span {
+  color: rgb(220, 220, 220);
+}
+.contact-dark-mode .container5 .contact-container .contact-right .details .icon-container {
+  color: rgb(220, 220, 220);
+}
+.contact-dark-mode .container5 .contact-container .contact-right .social span {
+  color: rgb(220, 220, 220);
+}
+.contact-dark-mode .container5 .contact-container .contact-right .social .icon-container {
+  color: rgb(220, 220, 220);
 }/*# sourceMappingURL=footer.css.map */

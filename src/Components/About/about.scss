@@ -132,3 +132,41 @@
         }
     }
 }
+
+//dark mode
+.about-container-dark-mode{
+    background: $colorBackground2;
+    color: $colorText;
+
+    &::after{
+        background: $colorBackground;
+        color: $colorText;
+    }
+    // .container2{
+
+    //     .title-section {
+    //         text-align: center;
+    //     }
+    //     .content2{
+    //         display: flex;
+    //         justify-content: space-around;
+    //         align-items: center;
+    //         // overflow: hidden;
+    //         .column-left2{
+    //             img{
+    //                 width: 390px;
+    //                 height: 390px;
+    //                 object-fit: cover;
+    //                 object-position: 50% 10%;
+    //                 border-radius: 50%;
+    //             }
+    //         }
+    //         .column-right2{
+    //             .text{
+    //                 line-height: 25px;
+    //                 font-weight: 350;
+    //             }
+    //         }
+    //     }
+    // }
+}

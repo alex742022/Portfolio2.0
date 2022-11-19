@@ -2,11 +2,19 @@ import React from 'react'
 import './nav.css'
 import logo from '../../assets/my-pictures/logo.png'
 import menu from '../../assets/icons/menu.png'
+import menuDark from '../../assets/icons/menuDark.png'
 import cancel from '../../assets/icons/cancel.png'
+import cancelDark from '../../assets/icons/cancelDark.png'
 import light from '../../assets/icons/sun.png'
 import dark from '../../assets/icons/moon.png'
 
+// useContext import from Darkmode folder
+import { UsedarkModeActive, UsetoggleButtonForDarkMode } from '../Darkmode/darkmodeTheme'
+
 export default function Nav() {
+     //variable for toggle darkmode
+     const darkMode = UsedarkModeActive()
+     const toggleButtonDarkMode = UsetoggleButtonForDarkMode()
 
     // state for icon menu and cancel
     const [toggleIcon, setToggleIcon] = React.useState(false)
@@ -15,13 +23,7 @@ export default function Nav() {
         setToggleIcon(prevToggleIcon => !prevToggleIcon)
 
     }
-    //state for darkmode
-    const [darkMode, setDarkMode] = React.useState(false)
-    // darkmode function
-    const activeDarkMode = () => {
-        setDarkMode(prevDarkMode => !prevDarkMode)
-    }
-
+  
     // state for theme show or hide
     const [toggleTheme, setToggleTheme] = React.useState(false)
     // theme-container function
@@ -52,7 +54,7 @@ export default function Nav() {
 
   return (
     
-        <div className="nav-bar">
+        <div className={darkMode ? "nav-bar nav-bar-dark" : "nav-bar"}>
                 <div className="logo-container">
                     <img src={logo} alt="logo"/>
                 </div>
@@ -77,7 +79,8 @@ export default function Nav() {
                         <div onClick={themeButton} className="theme-button">
                         </div>
 
-                        <div onClick={activeDarkMode} className="container-darklight">
+                        {/* variable for toggle darkmode reciver */}
+                        <div onClick={toggleButtonDarkMode} className="container-darklight">
                             <img src={darkMode ? dark : light} alt="dark and light" />
                         </div>
 
@@ -97,7 +100,7 @@ export default function Nav() {
                 </div>
                 {/* bar-container function */}
                 <div onClick={toggleNavbar} className="bar-container">
-                    <img src={toggleIcon ? cancel : menu} alt="navbar button"/>
+                    <img src={toggleIcon ? darkMode ? cancelDark : cancel : darkMode ? menuDark : menu} alt="navbar button"/>
                 </div>   
             </div>
         </div>

@@ -8,10 +8,15 @@ import MySqlSkill from '../../assets/skills-picture/MYSQL_logo.png'
 import BootstrapSkill from '../../assets/skills-picture/BOOTSTRAP_logo.png'
 import ReactSkill from '../../assets/skills-picture/REACT_logo.png'
 import GitHubSkill from '../../assets/skills-picture/GITHUB_logo.png'
+// useContext import from Darkmode folder
+import { UsedarkModeActive  } from '../Darkmode/darkmodeTheme'
 
 export default function Skills() {
+
+     //variable for toggle darkmode
+     const darkMode = UsedarkModeActive()
   return (
-    <section className="skills-container" id="Skills">
+    <section className={darkMode ? "skills-container skills-container-dark-mode" : "skills-container"} id="Skills">
         <div className="container container4">
             <h1 className="title-section reveal1" >SKILLS</h1>
             <div className="skills-content">

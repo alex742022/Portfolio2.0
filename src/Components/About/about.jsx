@@ -1,11 +1,16 @@
 import React from 'react'
 import './about.css'
 import myProfile from '../../assets/my-pictures/my-picture.jpg'
+// useContext import from Darkmode folder
+import { UsedarkModeActive  } from '../Darkmode/darkmodeTheme'
 
 export default function About() {
+    
+    //variable for toggle darkmode
+    const darkMode = UsedarkModeActive()
 
   return (
-    <section className="about-container" id="About">
+    <section className={darkMode ? "about-container about-container-dark-mode" : "about-container"} id="About">
         <div className="container2 container">
             <h1 className="title-section reveal1">ABOUT ME</h1>
             <div className="content2">

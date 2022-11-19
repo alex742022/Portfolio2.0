@@ -87,4 +87,17 @@
   .skills-container .container4 .skills-content .column-right .img-container img {
     height: 85px;
   }
+}
+.skills-container-dark-mode {
+  background: rgb(40, 40, 40);
+  color: rgb(220, 220, 220);
+}
+.skills-container-dark-mode .container4 .skills-content {
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+.skills-container-dark-mode .container4 .skills-content .column-right {
+  background: rgb(80, 80, 80);
+  padding: 20px;
+  border-radius: 10px;
 }/*# sourceMappingURL=skills.css.map */

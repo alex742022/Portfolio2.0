@@ -1,14 +1,5 @@
 @use '../ColorVariables/colors' as *;
 
-$colorThemeOne1: #008726;
-$colorThemeOne2: #32b92c;
-$colorThemeOne3: linear-gradient(90deg, rgba(0,135,38,1) 0%, rgba(50,185,44,1) 100%);
-$colorThemeOne4: #272d2d;
-$themeButtonColor: linear-gradient(90deg, rgba(0,135,38,1) 0%, rgba(132,28,38,1) 25%, rgba(95,15,64,1) 50%, rgba(68,3,129,1) 75%);
-$colorThemeTwo1: #841c26;
-$colorThemeThree1: #5f0f40;
-$colorThemeFour1: #440381;
-
 .projects-container{
 
     .container3{
@@ -24,7 +15,7 @@ $colorThemeFour1: #440381;
 
             display: flex;
             justify-content: space-between;
-            margin-bottom: 100px;
+            padding-bottom: 100px;
 
         .left-width{
             width: 300px;
@@ -129,7 +120,7 @@ $colorThemeFour1: #440381;
             .content3{
                 flex-direction: column;
                 row-gap: 40px;
-                margin-bottom: 70px;
+                padding-bottom: 70px;
                 .column-left3{
 
                     .project-text-style-h2{
@@ -191,11 +182,62 @@ $colorThemeFour1: #440381;
 
             .content3{
                 flex-direction: row;
-                margin-bottom: 100px;
+                padding-bottom: 100px;
 
                 .column-right3{
                     width: 800px;
                     align-self: flex-end;
+                }
+            }
+        }
+    }
+}
+//darkmode
+
+.projects-container-dark-mode{
+    background-color: $colorBackground;
+    .container3{
+
+        .title-section3{
+            color: $colorText;
+        }
+        .content3{
+            .left-width{
+                .project-text-style-h2{
+                    color: $colorText;
+                }
+
+                p{
+                    color: $colorText;
+                }
+
+                .btn-container{
+
+                    .project-btn{
+
+                        background-color: transparent;
+
+                        &::before{
+                            background: var(--colorThemeOne3, $colorThemeOne3);
+                        }
+
+                        &::after{
+                            background: $colorBackground;
+                            color: $colorText
+                        }
+                    }
+
+                button{
+                    color: $colorText;
+                    background: var(--colorThemeOne1, $colorThemeOne1);
+                }
+            }
+        }
+
+            .column-right3{
+                
+                .Pimage-style{
+                    box-shadow: 0 0 7px -3px white;
                 }
             }
         }

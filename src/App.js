@@ -6,6 +6,8 @@ import Projects from './Components/Projects/projects'
 import Skills from './Components/Skills/skills'
 import Footer from './Components/Footer/footer'
 import './App.css'
+//import Context from Darkmode folder
+import { DarkTheme } from './Components/Darkmode/darkmodeTheme'
 
 export default function App() {
 
@@ -22,12 +24,10 @@ export default function App() {
     
           if(revealTop < windowHeight - revealPoint){
             reveals[i].classList.add('active');
-            console.log("sfasasafa")
           }
 
           else {
             reveals[i].classList.remove('active');
-            console.log(0)
           }
       }
   }
@@ -45,13 +45,14 @@ export default function App() {
 
 
   return (
-    <div>
+    // useContext import from Dark mode folder
+    <DarkTheme>
         <Nav/>
         <Home/>
         <About/>
         <Projects/>
         <Skills/>
         <Footer/>
-    </div>
+    </DarkTheme>
   )
 }

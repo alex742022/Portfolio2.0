@@ -1,7 +1,6 @@
 @use '../ColorVariables/colors' as *;
 
 .contact{
-    background: white;
     padding-bottom: 100px;
 
     .container5{
@@ -185,6 +184,65 @@
             .title-section{
                 font-size: 35px;
                 padding-bottom: 80px;
+            }
+        }
+    }
+}
+
+//darkmode
+
+.contact-dark-mode{
+    background: $colorBackground;
+    .container5{
+      .title-section{
+            color: $colorText;
+        }
+
+        .contact-container{
+            .contact-left{
+                form{
+                    
+                    label{
+                        color: $colorText;
+                    }
+    
+                    input, textarea{
+                        background-color: $colorBackground;
+                        border-bottom: 2px solid $colorText;
+
+                        color: $colorText;
+
+                        &::placeholder{
+                            color: $colorText;
+                        }
+                    }
+                    
+                }
+            }
+
+            .contact-right{
+
+                .details{
+
+                    span{
+                        color: $colorText;
+                    }
+
+                    .icon-container{
+                        color: $colorText;
+                    }
+                }
+
+                .social{
+
+                    span{
+                        color: $colorText;
+                    }
+
+                    .icon-container{
+                        color: $colorText;  
+                    }
+                }
             }
         }
     }
