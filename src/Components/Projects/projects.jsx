@@ -26,7 +26,7 @@ export default function Projects() {
                 "description" : "This website was made using Wordpress during my Internship.",
                 "project" : projectOne,
                 "source" : "https://github.com/alex742022/Intern-Website",
-                "viewLive" : "https://github.com/alex742022/Intern-Website",
+                "viewLive" : "https://alex742022.github.io/Simple-intern-website/",
                 "Name" : "Nuvel Global Venture"
             },
             {
