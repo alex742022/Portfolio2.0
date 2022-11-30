@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio2.0/static/css/main.2c73c87c.css",
-    "main.js": "/Portfolio2.0/static/js/main.0d15b35d.js",
+    "main.css": "/Portfolio2.0/static/css/main.01f2fe64.css",
+    "main.js": "/Portfolio2.0/static/js/main.e935794b.js",
     "static/media/my-picture.jpg": "/Portfolio2.0/static/media/my-picture.1a85ce4a3ab7edd713d3.jpg",
     "static/media/nuvel-website.png": "/Portfolio2.0/static/media/nuvel-website.56d69236ff552903dc42.png",
     "static/media/my-cover-img.png": "/Portfolio2.0/static/media/my-cover-img.4ba8d15b2ddcf9fb825a.png",
     "static/media/Nike-project.png": "/Portfolio2.0/static/media/Nike-project.e83e56dedcc3824827a0.png",
     "static/media/building-penguin.png": "/Portfolio2.0/static/media/building-penguin.8118ba5759ce9417a518.png",
     "static/media/product-landing-page.png": "/Portfolio2.0/static/media/product-landing-page.f025df553296778045be.png",
-    "static/media/PHP_logo.png": "/Portfolio2.0/static/media/PHP_logo.10a7a8ce201f517406ad.png",
     "static/media/sample-magazine.png": "/Portfolio2.0/static/media/sample-magazine.07086527e75d4b304d5a.png",
-    "static/media/BOOTSTRAP_logo.png": "/Portfolio2.0/static/media/BOOTSTRAP_logo.4ce81d7daa635fac54d0.png",
     "static/media/REACT_logo.png": "/Portfolio2.0/static/media/REACT_logo.a21c9488ac3ec3d76a2d.png",
     "static/media/HTML5_logo.png": "/Portfolio2.0/static/media/HTML5_logo.ed531579619308c5b5a7.png",
+    "static/media/TAILWIND_logo.png": "/Portfolio2.0/static/media/TAILWIND_logo.e80b3e73dbb0a5d0ee64.png",
     "static/media/student-database.png": "/Portfolio2.0/static/media/student-database.94d3abdd63993475809a.png",
-    "static/media/MYSQL_logo.png": "/Portfolio2.0/static/media/MYSQL_logo.33f84d114891d400b888.png",
     "static/media/GITHUB_logo.png": "/Portfolio2.0/static/media/GITHUB_logo.69c70dd9c56927e04c9d.png",
     "static/media/facebook-clone.png": "/Portfolio2.0/static/media/facebook-clone.706463d5e69e14947b11.png",
     "static/media/CSS3_logo.png": "/Portfolio2.0/static/media/CSS3_logo.0fe7f80001cf2b2fadc6.png",
@@ -22,11 +20,11 @@
     "static/media/logo.png": "/Portfolio2.0/static/media/logo.0362fa72dfcaccf43335.png",
     "static/media/JS_logo.png": "/Portfolio2.0/static/media/JS_logo.ef6eb6cc702d4c5f0523.png",
     "index.html": "/Portfolio2.0/index.html",
-    "main.2c73c87c.css.map": "/Portfolio2.0/static/css/main.2c73c87c.css.map",
-    "main.0d15b35d.js.map": "/Portfolio2.0/static/js/main.0d15b35d.js.map"
+    "main.01f2fe64.css.map": "/Portfolio2.0/static/css/main.01f2fe64.css.map",
+    "main.e935794b.js.map": "/Portfolio2.0/static/js/main.e935794b.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c73c87c.css",
-    "static/js/main.0d15b35d.js"
+    "static/css/main.01f2fe64.css",
+    "static/js/main.e935794b.js"
   ]
 }
