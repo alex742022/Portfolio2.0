@@ -23,16 +23,16 @@ export default function Projects() {
             {   
                 "id" : 1,
                 "projectName" : "Nuvel Global Venture, INC",
-                "description" : "This website was made using Wordpress during my Internship.",
+                "description" : "This website was created during my internship. They assigned me the task of creating a simple website for those companies, which I completed using React JS.",
                 "project" : projectOne,
-                "source" : "https://github.com/alex742022/Intern-Website",
+                "source" : "https://github.com/alex742022/Simple-intern-website",
                 "viewLive" : "https://alex742022.github.io/Simple-intern-website/",
                 "Name" : "Nuvel Global Venture"
             },
             {
                 "id" : 2,
                 "projectName" : "Nike Clone",
-                "description" : "Nike website clone that is fully responsive and includes a fetch API from local json file.",
+                "description" : "Nike website clone with fully responsive frontend design and API fetch from local json file.",
                 "project" : projectTwo,
                 "source" : "https://github.com/alex742022/Nike-Clone",
                 "viewLive" : "https://alex742022.github.io/Nike-Clone",
@@ -119,7 +119,9 @@ export default function Projects() {
                         </div>
 
                         <div className="column-right3">
-                            <img className="Pimage-style reveal2" src={projects.project} alt={projects.Name}/>
+                            <a href={projects.viewLive} target="_blank" rel="noopener noreferrer">
+                                <img className="Pimage-style reveal2" src={projects.project} alt={projects.Name}/>
+                            </a>
                         </div>
                     </div>
                 )
