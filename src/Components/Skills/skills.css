@@ -24,7 +24,67 @@
   display: flex;
   justify-content: space-evenly;
   row-gap: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+}
+.skills-container .container4 .skills-content .column-right .img-container .each-img-container-html {
+  position: relative;
+}
+.skills-container .container4 .skills-content .column-right .img-container .each-img-container-html:after {
+  content: "HTML";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -20px;
+}
+.skills-container .container4 .skills-content .column-right .img-container .each-img-container-css {
+  position: relative;
+}
+.skills-container .container4 .skills-content .column-right .img-container .each-img-container-css:after {
+  content: "CSS";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -20px;
+}
+.skills-container .container4 .skills-content .column-right .img-container .each-img-container-javaScript {
+  position: relative;
+}
+.skills-container .container4 .skills-content .column-right .img-container .each-img-container-javaScript:after {
+  content: "JavaScript";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -20px;
+}
+.skills-container .container4 .skills-content .column-right .img-container .each-img-container-react {
+  position: relative;
+}
+.skills-container .container4 .skills-content .column-right .img-container .each-img-container-react:after {
+  content: "React";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -20px;
+}
+.skills-container .container4 .skills-content .column-right .img-container .each-img-container-tailwind {
+  position: relative;
+}
+.skills-container .container4 .skills-content .column-right .img-container .each-img-container-tailwind:after {
+  content: "Tailwind";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -20px;
+}
+.skills-container .container4 .skills-content .column-right .img-container .each-img-container-github {
+  position: relative;
+}
+.skills-container .container4 .skills-content .column-right .img-container .each-img-container-github:after {
+  content: "GitHub";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -20px;
 }
 .skills-container .container4 .skills-content .column-right .img-container img {
   height: 90px;

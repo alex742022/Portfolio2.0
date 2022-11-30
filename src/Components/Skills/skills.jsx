@@ -3,11 +3,12 @@ import './skills.css'
 import HtmlSkill from '../../assets/skills-picture/HTML5_logo.png'
 import CssSkill from '../../assets/skills-picture/CSS3_logo.png'
 import JavaScriptSkill from '../../assets/skills-picture/JS_logo.png'
-import PhpSkill from '../../assets/skills-picture/PHP_logo.png'
-import MySqlSkill from '../../assets/skills-picture/MYSQL_logo.png'
-import BootstrapSkill from '../../assets/skills-picture/BOOTSTRAP_logo.png'
+// import PhpSkill from '../../assets/skills-picture/PHP_logo.png'
+// import MySqlSkill from '../../assets/skills-picture/MYSQL_logo.png'
+// import BootstrapSkill from '../../assets/skills-picture/BOOTSTRAP_logo.png'
 import ReactSkill from '../../assets/skills-picture/REACT_logo.png'
 import GitHubSkill from '../../assets/skills-picture/GITHUB_logo.png'
+import TailwindSkill from '../../assets/skills-picture/TAILWIND_logo.png'
 // useContext import from Darkmode folder
 import { UsedarkModeActive  } from '../Darkmode/darkmodeTheme'
 
@@ -32,19 +33,32 @@ export default function Skills() {
                              to enhance my skills as a developer.</p>
                 </div>
                 <div className="column-right reveal2">
-                    <div className="img-container">   
-                        <img className="htmlpic" src={HtmlSkill} alt="html"/>
-                        <img className="csspic" src={CssSkill} alt="css"/>
-                        <img className="jspic" src={JavaScriptSkill} alt="javascript"/>
+                    <div className="img-container">
+                        <div className="each-img-container-html">
+                            <img className="htmlpic" src={HtmlSkill} alt="html"/>    
+                        </div>   
+                        <div className="each-img-container-css">
+                            <img className="csspic" src={CssSkill} alt="css"/>
+                        </div>   
+                        <div className="each-img-container-javaScript">
+                            <img className="jspic" src={JavaScriptSkill} alt="javascript"/>  
+                        </div>    
                     </div>
-                    <div className="img-container">   
+                    {/* <div className="img-container">   
                         <img className="phppic" src={PhpSkill} alt="php"/>
                         <img className="msqlpic" src={MySqlSkill} alt="msql"/>
-                    </div>
-                    <div className="img-container">   
-                        <img className="phppic" src={BootstrapSkill} alt="bootstrap"/>
-                        <img className="reactpic" src={ReactSkill} alt="react"/> 
-                        <img className="githubpic" src={GitHubSkill} alt="github"/>
+                    </div> */}
+                    <div className="img-container">
+
+                        <div className="each-img-container-react">
+                            <img className="reactpic" src={ReactSkill} alt="react"/>    
+                        </div>   
+                        <div className="each-img-container-tailwind">
+                            <img className="tailwindpic" src={TailwindSkill} alt="bootstrap"/>
+                        </div>   
+                        <div className="each-img-container-github">
+                            <img className="githubpic" src={GitHubSkill} alt="github"/>
+                        </div>   
                     </div>
                 </div>
             </div>
