@@ -23,7 +23,7 @@ export default function Projects() {
             {   
                 "id" : 1,
                 "projectName" : "Nuvel Global Venture, INC",
-                "description" : "This website was created during my internship. They assigned me the task of creating a simple website for those companies, which I completed using React JS.",
+                "description" : "This website was created during my internship. They assigned me the task of creating a simple website for those companies, which I completed using React JS and Tailwind CSS.",
                 "project" : projectOne,
                 "source" : "https://github.com/alex742022/Simple-intern-website",
                 "viewLive" : "https://alex742022.github.io/Simple-intern-website/",
