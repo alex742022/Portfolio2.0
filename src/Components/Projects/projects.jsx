@@ -2,7 +2,7 @@ import React from 'react'
 import './projects.css'
 import projectOne from '../../assets/projects-picture/nuvel-website.png'
 import projectTwo from '../../assets/projects-picture/Nike-project.png'
-import projectThree from '../../assets/projects-picture/product-landing-page.png'
+import projectThree from '../../assets/projects-picture/simple-tourist-website.png'
 import projectFour from '../../assets/projects-picture/student-database.png'
 import projectFive from '../../assets/projects-picture/sample-magazine.png'
 import projectSix from '../../assets/projects-picture/building-city-skyline.png'
@@ -32,7 +32,7 @@ export default function Projects() {
             {
                 "id" : 2,
                 "projectName" : "Nike Clone",
-                "description" : "Nike website clone with fully responsive frontend design and API fetch from local json file.",
+                "description" : "Nike website clone created with Vanilla JavaScript, including a fully responsive frontend design and API fetch from a local json file.",
                 "project" : projectTwo,
                 "source" : "https://github.com/alex742022/Nike-Clone",
                 "viewLive" : "https://alex742022.github.io/Nike-Clone",
@@ -40,12 +40,12 @@ export default function Projects() {
             },
             {   
                 "id" : 3,
-                "projectName" : "Product Landing Page",
-                "description" : "I made this Product Landing Page in freeCodeCamp using HTML and CSS.",
+                "projectName" : "PH Tourist Website",
+                "description" : "Simple Tourist Website created with React JS, on which you can see some of the most beautiful tourist destinations in the Philippines.",
                 "project" : projectThree,
-                "source" :  "https://github.com/alex742022/Product-Landing-Page",
-                "viewLive" : "https://github.com/alex742022/Product-Landing-Page",
-                "Name" : "Product Landing Page"
+                "source" :  "https://github.com/alex742022/PH-Tourist-Website",
+                "viewLive" : "https://alex742022.github.io/PH-Tourist-Website",
+                "Name" : "PH Tourist Website"
             },
             {
                 "id" : 4,
