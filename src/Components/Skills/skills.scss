@@ -1,231 +1,257 @@
-@use '../ColorVariables/colors' as *;
+@use "../ColorVariables/colors" as *;
 
-.skills-container{
-    background: var(--colorThemeOne1, $colorThemeOne1);
-    color: white;
-    padding: 80px 0 100px;
+.skills-container {
+  background: var(--colorThemeOne1, $colorThemeOne1);
+  color: white;
+  padding: 80px 0 100px;
 
-    .container4{
-        
-        .title-section{
-            padding: 0 0 40px 0;
-            text-align: center;
-            font-size: 35px;
-        }
-
-        .skills-content{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-
-            .column-left{
-
-                h2{
-                    margin-bottom: 20px;
-                }
-                p{
-                    line-height: 25px;
-                    font-weight: 350;
-                }
-            }
-
-            .column-right{
-
-                .img-container{
-                    display: flex;
-                    justify-content: space-evenly;
-                    row-gap: 50px;
-                    margin-bottom: 40px;
-                    
-                    .each-img-container-html{
-                        // padding: 20px;
-                        position: relative;
-
-                        &:after{
-                            content: "HTML";
-                            position: absolute;
-                            left: 50%;
-                            transform: translateX(-50%);
-                            bottom: -20px;
-                        }
-                    }
-
-                    .each-img-container-css{
-                        // padding: 20px;
-                        position: relative;
-
-                        &:after{
-                            content: "CSS";
-                            position: absolute;
-                            left: 50%;
-                            transform: translateX(-50%);
-                            bottom: -20px;
-                        }
-                    }
-
-                    .each-img-container-javaScript{
-                        // padding: 20px;
-                        position: relative;
-
-                        &:after{
-                            content: "JavaScript";
-                            position: absolute;
-                            left: 50%;
-                            transform: translateX(-50%);
-                            bottom: -20px;
-                        }
-                    }
-
-                    .each-img-container-react{
-                        // padding: 20px;
-                        position: relative;
-
-                        &:after{
-                            content: "React";
-                            position: absolute;
-                            left: 50%;
-                            transform: translateX(-50%);
-                            bottom: -20px;
-                        }
-                    }
-
-                    .each-img-container-tailwind{
-                        // padding: 20px;
-                        position: relative;
-
-                        &:after{
-                            content: "Tailwind";
-                            position: absolute;
-                            left: 50%;
-                            transform: translateX(-50%);
-                            bottom: -20px;
-                        }
-                    }
-
-                    .each-img-container-github{
-                        // padding: 20px;
-                        position: relative;
-
-                        &:after{
-                            content: "GitHub";
-                            position: absolute;
-                            left: 50%;
-                            transform: translateX(-50%);
-                            bottom: -20px;
-                        }
-                    }
-
-                    img{
-                        height: 90px;
-                        filter: drop-shadow(1px 1px 1px black);
-                    }
-                }
-            }
-        }
+  .container4 {
+    .title-section {
+      padding: 0 0 40px 0;
+      text-align: center;
+      font-size: 35px;
     }
+
+    .skills-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .column-left {
+        h2 {
+          margin-bottom: 20px;
+        }
+        p {
+          line-height: 25px;
+          font-weight: 350;
+        }
+      }
+
+      .column-right {
+        border-radius: 40px;
+        padding: 40px 0;
+        .img-container {
+          display: flex;
+          justify-content: space-evenly;
+          row-gap: 50px;
+          margin-bottom: 40px;
+
+          .each-img-container-html {
+            // padding: 20px;
+            position: relative;
+
+            &:after {
+              content: "HTML";
+              position: absolute;
+              left: 50%;
+              transform: translateX(-50%);
+              bottom: -20px;
+            }
+          }
+
+          .each-img-container-css {
+            // padding: 20px;
+            position: relative;
+
+            &:after {
+              content: "CSS";
+              position: absolute;
+              left: 50%;
+              transform: translateX(-50%);
+              bottom: -20px;
+            }
+          }
+
+          .each-img-container-javaScript {
+            // padding: 20px;
+            position: relative;
+
+            &:after {
+              content: "JavaScript";
+              position: absolute;
+              left: 50%;
+              transform: translateX(-50%);
+              bottom: -20px;
+            }
+          }
+
+          .each-img-container-sass {
+            // padding: 20px;
+            position: relative;
+
+            &:after {
+              content: "Sass";
+              position: absolute;
+              left: 50%;
+              transform: translateX(-50%);
+              bottom: -20px;
+            }
+          }
+
+          .each-img-container-react {
+            // padding: 20px;
+            position: relative;
+
+            &:after {
+              content: "React";
+              position: absolute;
+              left: 50%;
+              transform: translateX(-50%);
+              bottom: -20px;
+            }
+          }
+
+          .each-img-container-tailwind {
+            // padding: 20px;
+            position: relative;
+
+            &:after {
+              content: "Tailwind";
+              position: absolute;
+              left: 50%;
+              transform: translateX(-50%);
+              bottom: -20px;
+            }
+          }
+
+          .each-img-container-git {
+            position: relative;
+
+            &:after {
+              content: "git";
+              position: absolute;
+              left: 50%;
+              transform: translateX(-50%);
+              bottom: -20px;
+            }
+          }
+
+          .each-img-container-npm {
+            position: relative;
+            &:after {
+              content: "Npm";
+              position: absolute;
+              left: 50%;
+              transform: translateX(-50%);
+              bottom: -20px;
+            }
+          }
+
+          .each-img-container-github {
+            // padding: 20px;
+            position: relative;
+
+            &:after {
+              content: "GitHub";
+              position: absolute;
+              left: 50%;
+              transform: translateX(-50%);
+              bottom: -20px;
+            }
+          }
+
+          img {
+            height: 90px;
+            filter: drop-shadow(1px 1px 1px black);
+          }
+        }
+      }
+    }
+  }
 }
-@media only screen and (min-width: 0px){
-    .skills-container{
-        .container4{
-            padding: 0 18px;
+@media only screen and (min-width: 0px) {
+  .skills-container {
+    .container4 {
+      padding: 0 18px;
 
-            .title-section{
-                font-size: 25px;
-            }
+      .title-section {
+        font-size: 25px;
+      }
 
-            .skills-content{
-                flex-direction: column;
-                row-gap: 40px;
-                .column-left{
-                    width: fit-content;
+      .skills-content {
+        flex-direction: column;
+        row-gap: 40px;
+        .column-left {
+          width: fit-content;
 
-                    h2{
-                        font-size: 20px;
-                    }
-                }
-
-                .column-right{
-                    width: 350px;
-
-                    .img-container{
-
-                        img{
-                            height: 70px;
-                        }
-                    }
-                }
-            }
-
+          h2 {
+            font-size: 20px;
+          }
         }
+
+        .column-right {
+          width: 100%;
+          background-color: rgba(250, 250, 250, 0.2);
+
+          .img-container {
+            img {
+              height: 55px;
+            }
+          }
+        }
+      }
     }
+  }
 }
 
-@media only screen and (min-width: 700px){
-    .skills-container{
-        
-        .container4{
-            padding: 0 40px;
+@media only screen and (min-width: 700px) {
+  .skills-container {
+    .container4 {
+      padding: 0 40px;
 
-            .skills-content{
-
-                .column-right{
-                    width: 500px;
-                }
+      .skills-content {
+        .column-right {
+          .img-container {
+            img {
+              height: 70px;
             }
+          }
         }
+      }
     }
+  }
 }
-@media only screen and (min-width: 900px){
-    .skills-container{
-        padding-top: 100px;
+@media only screen and (min-width: 900px) {
+  .skills-container {
+    padding-top: 100px;
 
-        .container4{
+    .container4 {
+      .title-section {
+        font-size: 35px;
+      }
 
-            .title-section{
-                font-size: 35px;
-            }
-            
-            .skills-content{
+      .skills-content {
+        flex-direction: row;
+        gap: 20px;
 
-                flex-direction: row;
+        .column-left {
+          width: 50%;
 
-                .column-left{
-                    width: 50%;
-
-                    h2{
-                        font-size: 25px;
-                    }
-                }
-
-                .column-right{
-                    width: 50%;
-
-                    .img-container{
-
-                        img{
-                            height: 85px;
-                        }
-                    }
-                }
-            }
+          h2 {
+            font-size: 25px;
+          }
         }
+
+        .column-right {
+          width: 50%;
+        }
+      }
     }
+  }
 }
 
 //darkmode
-.skills-container-dark-mode{
-    background: $colorBackground2;
-    color: $colorText;
-    border-bottom: 1px solid rgba(250,250,250, .2);
+.skills-container-dark-mode {
+  background: $colorBackground2;
+  color: $colorText;
+  border-bottom: 1px solid rgba(250, 250, 250, 0.2);
 
-    .container4{
-        .skills-content{
-            column-gap: 40px;
-            .column-right{
-                background: $colorBackground3;
-                padding: 20px;
-                border-radius: 10px;
-            }
-        }
+  .container4 {
+    .skills-content {
+      column-gap: 40px;
+      .column-right {
+        background: $colorBackground3;
+      }
     }
+  }
 }
