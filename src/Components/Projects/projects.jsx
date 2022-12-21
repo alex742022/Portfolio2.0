@@ -4,7 +4,7 @@ import projectOne from '../../assets/projects-picture/nuvel-website.png'
 import projectTwo from '../../assets/projects-picture/Nike-project.png'
 import projectThree from '../../assets/projects-picture/simple-tourist-website.png'
 import projectFour from '../../assets/projects-picture/student-database.png'
-import projectFive from '../../assets/projects-picture/sample-magazine.png'
+import projectFive from '../../assets/projects-picture/netflix-clone.png'
 import projectSix from '../../assets/projects-picture/building-city-skyline.png'
 import projectSeven from '../../assets/projects-picture/facebook-clone.png'
 import projectEight from '../../assets/projects-picture/building-penguin.png'
@@ -58,11 +58,11 @@ export default function Projects() {
             },
             {
                 "id" : 5,
-                "projectName" : "Sample Magazine",
-                "description" : "A sample layout of a magazine I've created using HTML and CSS.",
+                "projectName" : "Neflix Clone",
+                "description" : "This Neflix website clone that I created with React JS and Tailwind CSS also has a fetch API from themoviedb.org, a service that offers a free live API Database. Additionally, this website is still under construction.",
                 "project" : projectFive,
-                "source" : "https://github.com/alex742022/Sample-Magazine",
-                "viewLive" : "https://github.com/alex742022/Sample-Magazine",
+                "source" : "https://github.com/alex742022/Neflix_Clone",
+                "viewLive" : "https://alex742022.github.io/Neflix_Clone/",
                 "Name" : "Sample Magazine"
             },
             {
