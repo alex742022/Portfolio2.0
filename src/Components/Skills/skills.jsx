@@ -9,6 +9,13 @@ import ReactSkill from "../../assets/skills-picture/REACT_logo.png";
 import GitHubSkill from "../../assets/skills-picture/GITHUB_logo.png";
 import GitSkill from "../../assets/skills-picture/GIT_logo.png";
 import TailwindSkill from "../../assets/skills-picture/TAILWIND_logo.png";
+
+import PythonSkill from "../../assets/skills-picture/PYTHON_logo.png";
+import NodejsSkill from "../../assets/skills-picture/NODE_logo.png";
+import PhpSkill from "../../assets/skills-picture/PHP_logo.png";
+import ExpressSkill from "../../assets/skills-picture/EXPRESS_logo.png";
+import MongodbSkill from "../../assets/skills-picture/MONGODB_logo.png";
+import MySqlSkill from "../../assets/skills-picture/MYSQL_logo.png";
 // useContext import from Darkmode folder
 import { UsedarkModeActive } from "../Darkmode/darkmodeTheme";
 
@@ -40,42 +47,41 @@ export default function Skills() {
               continue my education in this field.
             </p>
           </div>
-          <div className="column-right reveal2">
-            <div className="img-container">
-              <div className="each-img-container-html">
-                <img className="htmlpic" src={HtmlSkill} alt="html" />
+
+          <div className="skills-image-container">
+            <div className="front-end-container">
+              <h1>Front End Skills</h1>
+              <div className="image-container">
+                <img src={HtmlSkill} alt="Html" />
+                <img src={CssSkill} alt="Css" />
+                <img src={JavaScriptSkill} alt="JavaScript" />
               </div>
-              <div className="each-img-container-css">
-                <img className="csspic" src={CssSkill} alt="css" />
-              </div>
-              <div className="each-img-container-javaScript">
-                <img className="jspic" src={JavaScriptSkill} alt="javascript" />
-              </div>
-            </div>
-            <div className="img-container">
-              <div className="each-img-container-sass">
-                <img className="sasspic" src={SassSkill} alt="sass" />
-              </div>
-              <div className="each-img-container-react">
-                <img className="reactpic" src={ReactSkill} alt="react" />
-              </div>
-              <div className="each-img-container-tailwind">
-                <img
-                  className="tailwindpic"
-                  src={TailwindSkill}
-                  alt="bootstrap"
-                />
+              <div className="image-container">
+                <img src={SassSkill} alt="sass" />
+                <img src={ReactSkill} alt="reactjs" />
+                <img src={TailwindSkill} alt="tailwindcss" />
               </div>
             </div>
-            <div className="img-container">
-              <div className="each-img-container-git">
-                <img className="gitpic" src={GitSkill} alt="git" />
+
+            <div className="back-end-container">
+              <h1>Back End Skills</h1>
+              <div className="image-container">
+                <img src={NodejsSkill} alt="nodejs" />
+                <img src={PythonSkill} alt="python" />
+                <img src={PhpSkill} alt="php" />
               </div>
-              <div className="each-img-container-npm">
-                <img className="npmpic" src={NpmSkill} alt="nmp" />
+              <div className="image-container">
+                <img src={MongodbSkill} alt="mongodb" />
+                <img src={MySqlSkill} alt="mysql" />
+                <img src={ExpressSkill} alt="express" />
               </div>
-              <div className="each-img-container-github">
-                <img className="githubpic" src={GitHubSkill} alt="github" />
+            </div>
+
+            <div className="otherskills-container">
+              <div className="image-container">
+                <img src={GitSkill} alt="git" />
+                <img src={NpmSkill} alt="npm" />
+                <img src={GitHubSkill} alt="github" />
               </div>
             </div>
           </div>
