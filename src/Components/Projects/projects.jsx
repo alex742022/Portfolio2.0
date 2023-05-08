@@ -7,7 +7,7 @@ import projectFour from '../../assets/projects-picture/student-database.png'
 import projectFive from '../../assets/projects-picture/netflix-clone.png'
 import projectSix from '../../assets/projects-picture/building-city-skyline.png'
 import projectSeven from '../../assets/projects-picture/facebook-clone.png'
-import projectEight from '../../assets/projects-picture/building-penguin.png'
+import projectEight from '../../assets/projects-picture/coolistic-aircon.png'
 // useContext import from Darkmode folder
 import { UsedarkModeActive  } from '../Darkmode/darkmodeTheme'
 
@@ -23,7 +23,7 @@ export default function Projects() {
             {   
                 "id" : 1,
                 "projectName" : "Nuvel Global Venture, INC",
-                "description" : "This website was created during my internship. They assigned me the task of creating a simple website for those companies, which I completed using React JS and Tailwind CSS.",
+                "description" : "During my internship, I was tasked with creating a simple website for a company. I completed this project using React JS and Tailwind CSS.",
                 "project" : projectOne,
                 "source" : "https://github.com/alex742022/Simple-intern-website",
                 "viewLive" : "https://alex742022.github.io/Simple-intern-website/",
@@ -32,7 +32,7 @@ export default function Projects() {
             {
                 "id" : 2,
                 "projectName" : "Nike Clone",
-                "description" : "Nike website clone created with Vanilla JavaScript, including a fully responsive frontend design and API fetch from a local json file.",
+                "description" : "I created a clone of the Nike website using Vanilla JavaScript, featuring a fully responsive frontend design and API fetching from a local JSON file.",
                 "project" : projectTwo,
                 "source" : "https://github.com/alex742022/Nike-Clone",
                 "viewLive" : "https://alex742022.github.io/Nike-Clone",
@@ -41,7 +41,7 @@ export default function Projects() {
             {   
                 "id" : 3,
                 "projectName" : "PH Tourist Website",
-                "description" : "Simple Tourist Website created with React JS, on which you can see some of the most beautiful tourist destinations in the Philippines.",
+                "description" : "I created a simple tourist website using React JS that showcases some of the most breathtaking tourist destinations in the Philippines.",
                 "project" : projectThree,
                 "source" :  "https://github.com/alex742022/PH-Tourist-Website",
                 "viewLive" : "https://alex742022.github.io/PH-Tourist-Website",
@@ -50,7 +50,7 @@ export default function Projects() {
             {
                 "id" : 4,
                 "projectName" : "Student Database System",
-                "description" : "Student database system with user admin and students account.",
+                "description" : "I developed a student database system that includes both admin and student accounts for easy management of student records and information.",
                 "project" : projectFour,
                 "source" : "https://github.com/alex742022/Student-Database",
                 "viewLive" : "https://github.com/alex742022/Student-Database",
@@ -59,7 +59,7 @@ export default function Projects() {
             {
                 "id" : 5,
                 "projectName" : "Neflix Clone",
-                "description" : "This Neflix website clone that I created with React JS and Tailwind CSS also has a fetch API from themoviedb.org, a service that offers a free live API Database. Additionally, this website is still under construction.",
+                "description" : "I have developed a Netflix website clone using React JS and Tailwind CSS, which includes a fetch API from themoviedb.org. This service provides a free live API Database to the website. Although the website is still under construction, it showcases my skills in front-end development and API integration.",
                 "project" : projectFive,
                 "source" : "https://github.com/alex742022/Neflix_Clone",
                 "viewLive" : "https://alex742022.github.io/Neflix_Clone/",
@@ -68,7 +68,7 @@ export default function Projects() {
             {
                 "id" : 6,
                 "projectName" : "Building City Sykline",
-                "description" : "I made this Building City Skyline in freeCodeCamp using HTML and CSS.",
+                "description" : "I created a Building City Skyline project using HTML and CSS on the freeCodeCamp platform.",
                 "project" : projectSix,
                 "source" : "https://github.com/alex742022/Building-City-Skyline",
                 "viewLive" : "https://alex742022.github.io/Building-City-Skyline",
@@ -77,7 +77,7 @@ export default function Projects() {
             {
                 "id" : 7,
                 "projectName" : "Facebook Login Clone",
-                "description" : "I've created this Facebook clone login page using HTML and CSS.",
+                "description" : "I have created a login page clone for Facebook using HTML and CSS.",
                 "project" : projectSeven,
                 "source" : "https://github.com/alex742022/Facebook-Replica",
                 "viewLive" : "https://alex742022.github.io/Facebook-Replica",
@@ -85,12 +85,12 @@ export default function Projects() {
             },
             {
                 "id" : 8,
-                "projectName" : "Building Penguin",
-                "description" : "I made this Building Penguin in FreeCodeCamp using HTML and CSS.",
+                "projectName" : "Coolistic Airconditioning Shop",
+                "description" : "This website is created for Coolistic Airconditioning Shop, a company that specializes in air conditioning systems.",
                 "project" : projectEight,
-                "source" : "https://github.com/alex742022/Building-Penguin",
-                "viewLive" : "https://alex742022.github.io/Building-Penguin",
-                "Name" : "Building Penguin"
+                "source" : "https://github.com/alex742022/coolistic-website2.0",
+                "viewLive" : "https://coolisticaircon.vercel.app/",
+                "Name" : "Coolistic Airconditioning Shop"
             }
         ]
     }

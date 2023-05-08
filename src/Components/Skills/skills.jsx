@@ -30,13 +30,14 @@ export default function Skills() {
           <div className="column-left reveal">
             <h2>My creative skills & experiences</h2>
             <p>
-              As a recent graduate, I learned the fundamentals of web
-              development, as well as how codes or programming languages work.
-              And I started my interest in web development during my internship,
-              and that is why my problem-solving, critical thinking, and
-              analytical skills were developed. Therefore, I started to study
-              more about web development and I went to different online learning
-              platforms to enhance my skills as a developer.
+              I am grateful for the opportunity to have learned the fundamental
+              concepts of web development, including programming languages and
+              their applications. My interest in web development began during my
+              second year of college, and I am humbled to say that this pursuit
+              has helped develop my problem-solving, critical thinking, and
+              analytical skills. To further enhance my abilities as a developer,
+              I have actively sought out various online learning platforms to
+              continue my education in this field.
             </p>
           </div>
           <div className="column-right reveal2">
