@@ -27,5 +27,5 @@ export function DarkTheme({children}) {
             {children}
         </ToggleButton.Provider>
        </DarkMode.Provider>
-  )
+  ) 
 }

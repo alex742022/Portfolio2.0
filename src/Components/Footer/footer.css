@@ -32,16 +32,7 @@
   margin-top: 10px;
   background: green;
   border-radius: 100vw;
-  -webkit-animation: loadingAnimation 7s ease-in-out forwards;
-          animation: loadingAnimation 7s ease-in-out forwards;
-}
-@-webkit-keyframes loadingAnimation {
-  0% {
-    width: 100%;
-  }
-  100% {
-    width: 0%;
-  }
+  animation: loadingAnimation 7s ease-in-out forwards;
 }
 @keyframes loadingAnimation {
   0% {
@@ -80,8 +71,7 @@
   margin-top: 10px;
   background: red;
   border-radius: 100vw;
-  -webkit-animation: loadingAnimation 7s ease-in-out forwards;
-          animation: loadingAnimation 7s ease-in-out forwards;
+  animation: loadingAnimation 7s ease-in-out forwards;
 }
 @keyframes loadingAnimation {
   0% {
@@ -265,9 +255,6 @@
   color: rgb(220, 220, 220);
 }
 .contact-dark-mode .container5 .contact-container .contact-left form input::-moz-placeholder, .contact-dark-mode .container5 .contact-container .contact-left form textarea::-moz-placeholder {
-  color: rgb(220, 220, 220);
-}
-.contact-dark-mode .container5 .contact-container .contact-left form input:-ms-input-placeholder, .contact-dark-mode .container5 .contact-container .contact-left form textarea:-ms-input-placeholder {
   color: rgb(220, 220, 220);
 }
 .contact-dark-mode .container5 .contact-container .contact-left form input::placeholder, .contact-dark-mode .container5 .contact-container .contact-left form textarea::placeholder {

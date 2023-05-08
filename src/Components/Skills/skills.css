@@ -137,7 +137,6 @@
     row-gap: 40px;
   }
   .skills-container .container4 .skills-content .column-left {
-    width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
   }

@@ -83,7 +83,6 @@ export default function Nav() {
                         <div onClick={toggleButtonDarkMode} className="container-darklight">
                             <img src={darkMode ? light : dark } alt="dark and light" />
                         </div>
-
                         <div 
                             className={toggleTheme ? 
                             "theme-container theme-container-show" : 
