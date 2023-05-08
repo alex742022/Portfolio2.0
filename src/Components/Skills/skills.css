@@ -8,10 +8,9 @@
   text-align: center;
   font-size: 35px;
 }
-.skills-container .container4 .skills-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.skills-container .container4 .skills-content .column-left {
+  max-width: 1000px;
+  margin: auto;
 }
 .skills-container .container4 .skills-content .column-left h2 {
   margin-bottom: 20px;
@@ -19,110 +18,6 @@
 .skills-container .container4 .skills-content .column-left p {
   line-height: 25px;
   font-weight: 350;
-}
-.skills-container .container4 .skills-content .column-right {
-  border-radius: 40px;
-  padding: 40px 0;
-}
-.skills-container .container4 .skills-content .column-right .img-container {
-  display: flex;
-  justify-content: space-evenly;
-  row-gap: 50px;
-  margin-bottom: 40px;
-}
-.skills-container .container4 .skills-content .column-right .img-container .each-img-container-html {
-  position: relative;
-}
-.skills-container .container4 .skills-content .column-right .img-container .each-img-container-html:after {
-  content: "HTML";
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -20px;
-}
-.skills-container .container4 .skills-content .column-right .img-container .each-img-container-css {
-  position: relative;
-}
-.skills-container .container4 .skills-content .column-right .img-container .each-img-container-css:after {
-  content: "CSS";
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -20px;
-}
-.skills-container .container4 .skills-content .column-right .img-container .each-img-container-javaScript {
-  position: relative;
-}
-.skills-container .container4 .skills-content .column-right .img-container .each-img-container-javaScript:after {
-  content: "JavaScript";
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -20px;
-}
-.skills-container .container4 .skills-content .column-right .img-container .each-img-container-sass {
-  position: relative;
-}
-.skills-container .container4 .skills-content .column-right .img-container .each-img-container-sass:after {
-  content: "Sass";
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -20px;
-}
-.skills-container .container4 .skills-content .column-right .img-container .each-img-container-react {
-  position: relative;
-}
-.skills-container .container4 .skills-content .column-right .img-container .each-img-container-react:after {
-  content: "React";
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -20px;
-}
-.skills-container .container4 .skills-content .column-right .img-container .each-img-container-tailwind {
-  position: relative;
-}
-.skills-container .container4 .skills-content .column-right .img-container .each-img-container-tailwind:after {
-  content: "Tailwind";
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -20px;
-}
-.skills-container .container4 .skills-content .column-right .img-container .each-img-container-git {
-  position: relative;
-}
-.skills-container .container4 .skills-content .column-right .img-container .each-img-container-git:after {
-  content: "git";
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -20px;
-}
-.skills-container .container4 .skills-content .column-right .img-container .each-img-container-npm {
-  position: relative;
-}
-.skills-container .container4 .skills-content .column-right .img-container .each-img-container-npm:after {
-  content: "Npm";
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -20px;
-}
-.skills-container .container4 .skills-content .column-right .img-container .each-img-container-github {
-  position: relative;
-}
-.skills-container .container4 .skills-content .column-right .img-container .each-img-container-github:after {
-  content: "GitHub";
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -20px;
-}
-.skills-container .container4 .skills-content .column-right .img-container img {
-  height: 90px;
-  filter: drop-shadow(1px 1px 1px black);
 }
 
 @media only screen and (min-width: 0px) {
@@ -143,20 +38,83 @@
   .skills-container .container4 .skills-content .column-left h2 {
     font-size: 20px;
   }
-  .skills-container .container4 .skills-content .column-right {
-    width: 100%;
-    background-color: rgba(250, 250, 250, 0.2);
+  .skills-container .container4 .skills-content .skills-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
   }
-  .skills-container .container4 .skills-content .column-right .img-container img {
-    height: 55px;
+  .skills-container .container4 .skills-content .skills-image-container h1 {
+    text-align: center;
+  }
+  .skills-container .container4 .skills-content .skills-image-container .front-end-container {
+    background-color: rgba(250, 250, 250, 0.2);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  .skills-container .container4 .skills-content .skills-image-container .front-end-container .image-container {
+    display: flex;
+    gap: 20px;
+  }
+  .skills-container .container4 .skills-content .skills-image-container .front-end-container .image-container img {
+    width: 70px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .skills-container .container4 .skills-content .skills-image-container .back-end-container {
+    background-color: rgba(250, 250, 250, 0.2);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  .skills-container .container4 .skills-content .skills-image-container .back-end-container .image-container {
+    display: flex;
+    gap: 20px;
+  }
+  .skills-container .container4 .skills-content .skills-image-container .back-end-container .image-container img {
+    width: 70px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .skills-container .container4 .skills-content .skills-image-container .otherskills-container {
+    background-color: rgba(250, 250, 250, 0.2);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  .skills-container .container4 .skills-content .skills-image-container .otherskills-container .image-container {
+    display: flex;
+    gap: 20px;
+  }
+  .skills-container .container4 .skills-content .skills-image-container .otherskills-container .image-container img {
+    width: 70px;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }
 @media only screen and (min-width: 700px) {
   .skills-container .container4 {
     padding: 0 40px;
   }
-  .skills-container .container4 .skills-content .column-right .img-container img {
-    height: 70px;
+  .skills-container .container4 .skills-content .skills-image-container .front-end-container .image-container img {
+    width: 90px;
+  }
+  .skills-container .container4 .skills-content .skills-image-container .back-end-container .image-container img {
+    width: 90px;
+  }
+  .skills-container .container4 .skills-content .skills-image-container .otherskills-container .image-container img {
+    width: 90px;
   }
 }
 @media only screen and (min-width: 900px) {
@@ -166,18 +124,24 @@
   .skills-container .container4 .title-section {
     font-size: 35px;
   }
-  .skills-container .container4 .skills-content {
-    flex-direction: row;
-    gap: 20px;
-  }
-  .skills-container .container4 .skills-content .column-left {
-    width: 50%;
-  }
   .skills-container .container4 .skills-content .column-left h2 {
     font-size: 25px;
   }
-  .skills-container .container4 .skills-content .column-right {
-    width: 50%;
+  .skills-container .container4 .skills-content .skills-image-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .skills-container .container4 .skills-content .skills-image-container .front-end-container .image-container img {
+    width: 80px;
+  }
+  .skills-container .container4 .skills-content .skills-image-container .back-end-container .image-container img {
+    width: 80px;
+  }
+  .skills-container .container4 .skills-content .skills-image-container .otherskills-container .image-container {
+    flex-direction: column;
+  }
+  .skills-container .container4 .skills-content .skills-image-container .otherskills-container .image-container img {
+    width: 80px;
   }
 }
 .skills-container-dark-mode {
