@@ -1,4 +1,4 @@
-import {React, useState} from "react";
+import  React from "react";
 import "./projects.css";
 import projectOne from "../../assets/projects-picture/nuvel-website.png";
 import projectTwo from "../../assets/projects-picture/Nike-project.png";
@@ -14,12 +14,17 @@ import { UsedarkModeActive } from "../Darkmode/darkmodeTheme";
 export default function Projects() {
   //variable for toggle darkmode
   const darkMode = UsedarkModeActive();
-  
+
   //use state for notif condition
-  const [notifPrivate, setPrivateNotif] = useState(false)
+  const [notifPrivate, setPrivateNotif] = React.useState(false);
 
   //function for onclick button to pop up the notif
-  const 
+  const showTheNotif = () => {
+    setPrivateNotif(true);
+    setTimeout(() => {
+      setPrivateNotif(false);
+    }, 3000);
+  };
   const projectSources = {
     projectSourcesArray: [
       {
@@ -131,9 +136,13 @@ export default function Projects() {
                   {projects.source ===
                   "https://github.com/alex742022/coolistic-website2.0" ? (
                     <>
-                      <button className="project-btn">wala</button>
-                      
-                      {notifPrivate && <p className="private-notif">This code is private</p>}
+                      <button className="project-btn" onClick={showTheNotif}>
+                        wala
+                      </button>
+
+                      {notifPrivate && (
+                        <p className="private-notif">This code is private</p>
+                      )}
                     </>
                   ) : (
                     <a
