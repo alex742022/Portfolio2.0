@@ -18,7 +18,17 @@
 }
 .projects-container .container3 .content3 .left-width .btn-container {
   display: flex;
+  position: relative;
   margin-top: 25px;
+}
+.projects-container .container3 .content3 .left-width .btn-container .private-notif {
+  position: absolute;
+  bottom: -30px;
+  background-color: red;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
 }
 .projects-container .container3 .content3 .left-width .btn-container .project-btn {
   display: flex;
