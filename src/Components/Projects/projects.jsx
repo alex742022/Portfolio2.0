@@ -14,7 +14,9 @@ import { UsedarkModeActive } from "../Darkmode/darkmodeTheme";
 export default function Projects() {
   //variable for toggle darkmode
   const darkMode = UsedarkModeActive();
-const [notifPrivate, setPrivateNotif] = useState(false)
+  
+  //use state for notif condition
+  const [notifPrivate, setPrivateNotif] = useState(false)
   const projectSources = {
     projectSourcesArray: [
       {
