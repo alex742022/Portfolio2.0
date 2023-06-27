@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio2.0/static/css/main.15e73760.css",
-    "main.js": "/Portfolio2.0/static/js/main.7278cad3.js",
+    "main.css": "/Portfolio2.0/static/css/main.1f1ebc6e.css",
+    "main.js": "/Portfolio2.0/static/js/main.c4a90e00.js",
     "static/media/my-picture.jpg": "/Portfolio2.0/static/media/my-picture.1a85ce4a3ab7edd713d3.jpg",
     "static/media/nuvel-website.png": "/Portfolio2.0/static/media/nuvel-website.56d69236ff552903dc42.png",
     "static/media/netflix-clone.png": "/Portfolio2.0/static/media/netflix-clone.cd19c1ddeeae3825f93d.png",
@@ -28,11 +28,11 @@
     "static/media/GIT_logo.png": "/Portfolio2.0/static/media/GIT_logo.a5b1ffaec3c3945d1c7b.png",
     "static/media/MYSQL_logo.png": "/Portfolio2.0/static/media/MYSQL_logo.24b8ebd6b2ed369c5733.png",
     "index.html": "/Portfolio2.0/index.html",
-    "main.15e73760.css.map": "/Portfolio2.0/static/css/main.15e73760.css.map",
-    "main.7278cad3.js.map": "/Portfolio2.0/static/js/main.7278cad3.js.map"
+    "main.1f1ebc6e.css.map": "/Portfolio2.0/static/css/main.1f1ebc6e.css.map",
+    "main.c4a90e00.js.map": "/Portfolio2.0/static/js/main.c4a90e00.js.map"
   },
   "entrypoints": [
-    "static/css/main.15e73760.css",
-    "static/js/main.7278cad3.js"
+    "static/css/main.1f1ebc6e.css",
+    "static/js/main.c4a90e00.js"
   ]
 }
