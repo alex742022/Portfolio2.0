@@ -17,6 +17,9 @@ export default function Projects() {
   
   //use state for notif condition
   const [notifPrivate, setPrivateNotif] = useState(false)
+
+  //function for onclick button to pop up the notif
+  const 
   const projectSources = {
     projectSourcesArray: [
       {
