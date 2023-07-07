@@ -30,7 +30,7 @@ export default function Projects() {
       {
         projectName: "Coolistic Airconditioning Shop",
         description:
-          "This website is created for Coolistic Airconditioning Shop, a company that specializes in air conditioning systems.",
+          "This website, built using Next.js, is created for Coolistic Airconditioning Shop, a company that specializes in air conditioning systems.",
         project: projectEight,
         source: "https://github.com/alex742022/coolistic-website2.0",
         viewLive: "https://coolisticaircon.vercel.app/",
